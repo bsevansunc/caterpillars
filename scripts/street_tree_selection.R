@@ -39,9 +39,9 @@ metro <-
       "Van Ness-UDC",
       "Woodley Park-Zoo/Adams Morgan")) %>% 
 
-# Generate a 1.5 km maximum walking distance from a metro stop:
+# Generate a 1 km maximum walking distance from a metro stop:
 
-st_buffer(dist = 1500)
+st_buffer(dist = 1000)
 
 # Get trees:
 
@@ -95,21 +95,30 @@ oak_maple_subset <-
       filter(n >= 5),
     by = "objectid")
 
-# Conduct spatial clustering to reduce the number of potential sampling
+# Aggregate points to reduce the number of potential sampling
 # locations:
 
-oak_maple_clust <-
-  oak_maple_subset %>% 
-  spatialsample::spatial_clustering_cv(
-    v = 100,
-    cluster_function = "hclust")
+hex_grid <-
+  st_make_grid(oak_maple_subset,
+               cellsize = 200,
+               what = "polygons",
+               square = FALSE) %>% 
+  st_as_sf() %>% 
+  st_filter(oak_maple_subset) %>% 
+  mutate(grid_id = row_number())
 
-oak_maple_clust <-
-  oak_maple_subset %>% 
-  spatialsample::spatial_block_cv(
-    v = 100)
+# Take a look at the number of samples available per grid cell:
 
-tm_shape(oak_maple_subset) +
-  tm_markers() 
-
+hex_grid %>% 
+  inner_join(
+    st_join(
+      oak_maple_subset,
+      hex_grid) %>% 
+      as_tibble() %>% 
+      summarize(
+        n = n(),
+        .by = grid_id)) %>% 
+  filter(n > 10) %>% 
+  tm_shape(name = "hex") +
+  tm_polygons(col = "n")
 
