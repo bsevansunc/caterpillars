@@ -1,0 +1,56 @@
+object_id,cover_class,lon,lat,sci_nm,cmmn_nm,dbh,metro
+31225358,oak_dom_some_maple,-77.00184655887722,38.890897598031636,Acer platanoides,Norway maple,14.4,Eastern Market
+31198766,oak_dom_no_maple,-76.98543358118303,38.8856177944906,Quercus phellos,Willow oak,2.5,Eastern Market
+31206736,oak_dom_no_maple,-76.99488473502628,38.88646537857901,Quercus rubra,Red oak,32,Eastern Market
+31196855,oak_dom_some_maple,-76.99251074127592,38.882997022442076,Quercus phellos,Willow oak,18.6,Eastern Market
+31301182,oak_dom_no_maple,-77.00431270147253,38.88136666438612,Quercus lyrata,Overcup oak,2,Eastern Market
+31210611,oak_dom_no_maple,-76.98557158017205,38.887158244958115,Quercus rubra,Red oak,24.5,Eastern Market
+31191632,oak_dom_no_maple,-76.99503410308736,38.893221667431966,Quercus coccinea,Scarlet oak,12.5,Eastern Market
+31208789,oak_dom_no_maple,-76.99710931918057,38.884870970964194,Quercus bicolor,Swamp white oak,2.5,Eastern Market
+31192667,oak_dom_no_maple,-76.99414726920713,38.8840420887236,Quercus phellos,Willow oak,12.5,Eastern Market
+31169727,maple_dom_some_oak,-76.98824669348062,38.880762590748255,Quercus palustris,Pin oak,2,Eastern Market
+31137719,maple_dom_no_oak,-76.99258005130085,38.88148361758935,Acer rubrum,Red maple,18.9,Eastern Market
+31250675,maple_dom_some_oak,-76.99382445450752,38.885168120210274,Quercus bicolor,Swamp white oak,2,Eastern Market
+31250248,maple_dom_some_oak,-76.99030818426968,38.89180705655223,Acer rubrum,Red maple,16,Eastern Market
+31235916,maple_dom_some_oak,-76.99015901202267,38.8868974784181,Acer platanoides,Norway maple,7,Eastern Market
+31206121,maple_dom_some_oak,-77.00064779168966,38.892230850175416,Acer saccharinum,Silver maple,29.8,Eastern Market
+31266933,maple_dom_some_oak,-76.99382493538693,38.879609944655634,Quercus coccinea,Scarlet oak,11.2,Eastern Market
+31235872,maple_dom_some_oak,-76.99369728490439,38.88953717796106,Quercus nuttallii,Nuttall oak,2,Eastern Market
+31262399,oak_dom_no_maple,-77.04441349969456,38.925913623674326,Quercus phellos,Willow oak,35,Woodley Park
+31271134,oak_dom_no_maple,-77.05169623787404,38.91801032735021,Quercus palustris,Pin oak,16.1,Woodley Park
+31289917,oak_dom_no_maple,-77.04500075866376,38.92449909279365,Quercus bicolor,Swamp white oak,2,Woodley Park
+31246766,oak_dom_no_maple,-77.05979689666808,38.92495188274899,Quercus rubra,Red oak,34,Woodley Park
+31172807,oak_dom_no_maple,-77.05524570806338,38.930169938143635,Quercus rubra,Red oak,11,Woodley Park
+31188497,oak_dom_no_maple,-77.0558850572276,38.921872972312656,Quercus rubra,Red oak,10.3,Woodley Park
+31262254,oak_dom_no_maple,-77.04343382876507,38.92686887357882,Quercus palustris,Pin oak,32.3,Woodley Park
+31211236,oak_dom_no_maple,-77.04755702776266,38.9186967184941,Quercus bicolor,Swamp white oak,9.7,Woodley Park
+31158200,oak_dom_no_maple,-77.0560656681808,38.93158385246779,Quercus bicolor,Swamp white oak,2.5,Woodley Park
+31139711,oak_dom_some_maple,-76.9850192171723,38.88291522644904,Quercus palustris,Pin oak,26.7,Eastern Market
+31210419,oak_dom_some_maple,-77.00198473030348,38.88553761019206,Quercus rubra,Red oak,24.1,Eastern Market
+31183874,oak_dom_some_maple,-76.98557273671682,38.88143792037375,Quercus rubra,Red oak,21.5,Eastern Market
+31240383,oak_dom_some_maple,-76.99834262529392,38.88268195713009,Quercus palustris,Pin oak,26,Eastern Market
+31239996,oak_dom_some_maple,-77.00198465781105,38.88293418681636,Quercus phellos,Willow oak,2,Eastern Market
+31239694,oak_dom_some_maple,-76.99624483101415,38.88595195241029,Quercus phellos,Willow oak,19,Eastern Market
+31187879,oak_dom_some_maple,-77.05762055239394,38.9289706857444,Acer platanoides,Norway maple,15,Woodley Park
+31210781,oak_dom_some_maple,-77.04120698694346,38.92503198304526,Quercus rubra,Red oak,23.3,Woodley Park
+31144070,oak_dom_some_maple,-77.05349008620288,38.926711561963614,Quercus coccinea,Scarlet oak,40.8,Woodley Park
+31302855,oak_dom_some_maple,-77.0422233017058,38.92752692431392,Acer negundo,Boxelder maple,12,Woodley Park
+31202831,oak_dom_some_maple,-77.0552770598216,38.92598105658269,Acer platanoides,Norway maple,12.5,Woodley Park
+31239225,maple_dom_no_oak,-76.99610627423313,38.890456137445774,Acer rubrum,NA,23.7,Eastern Market
+31176872,maple_dom_no_oak,-76.9914722690815,38.89288815202777,Acer saccharinum,Silver maple,10.2,Eastern Market
+31195659,maple_dom_no_oak,-76.99984090862304,38.89099670467704,Acer saccharum,Sugar maple,7.2,Eastern Market
+31297274,maple_dom_no_oak,-76.9925908639241,38.888348007144266,Acer rubrum,Red maple,19.2,Eastern Market
+31256669,maple_dom_no_oak,-76.9927171541866,38.89323956274004,Acer rubrum,Red maple,8.8,Eastern Market
+31162527,maple_dom_no_oak,-76.9927173352944,38.89146491335306,Acer rubrum,Red maple,17.3,Eastern Market
+31137823,maple_dom_some_oak,-77.05241179532197,38.9188658000817,Acer rubrum,Red maple,17,Woodley Park
+31223592,maple_dom_some_oak,-77.05332134229104,38.91696463042251,Acer platanoides,Norway maple,9,Woodley Park
+31166576,maple_dom_some_oak,-77.04214337184291,38.92887820036416,Acer saccharum,Sugar maple,6.3,Woodley Park
+31196359,maple_dom_some_oak,-77.05475216037266,38.91824315203147,Quercus lyrata,Overcup oak,6,Woodley Park
+31275941,maple_dom_some_oak,-77.0585743992486,38.924853410364,Acer rubrum,Red maple,20.7,Woodley Park
+31158703,maple_dom_some_oak,-77.05526651189447,38.92725123441332,Acer platanoides,Norway maple,16.8,Woodley Park
+31323784,maple_dom_no_oak,-77.04464094964375,38.92080581790962,Acer rubrum,Red maple,32.3,Woodley Park
+31152410,maple_dom_no_oak,-77.04475759956816,38.9229317380906,Acer saccharum,Sugar maple,26.5,Woodley Park
+31172943,maple_dom_no_oak,-77.05650011449819,38.926764195377785,Acer platanoides,Norway maple,21.5,Woodley Park
+31188417,maple_dom_no_oak,-77.0614230569831,38.92508616415946,Acer saccharum,Sugar maple,9.5,Woodley Park
+31240472,maple_dom_no_oak,-77.04740896650017,38.921471343853135,Acer rubrum 'October Glory',October Glory red maple,12.7,Woodley Park
+31210431,maple_dom_no_oak,-77.04374676031897,38.929400093326166,Acer rubrum,Red maple,24.9,Woodley Park
